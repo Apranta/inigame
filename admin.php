@@ -20,4 +20,7 @@
 					else if ($_GET['page'] == 'Daftar') {
 						include('Daftar.php');
 					}
+					else {
+						include('User.php');	
+					}
 ?>
