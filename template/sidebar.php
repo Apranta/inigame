@@ -11,9 +11,15 @@
         	<li><a href="About.php">About</a></li>
       		</ul>
       		<ul class="nav navbar-nav navbar-right">
-        	<li><a href="Daftar.php"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-        	<li><a href="Login.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-      		</ul>
+          <?php
+          if (!isset($_SESSION['login'])){
+            echo "
+          <li><a href='Daftar.php'><span class='glyphicon glyphicon-user'></span> Sign Up</a></li>
+          <li><a href='Login.php'><span class='glyphicon glyphicon-log-in'></span> Login</a></li>
+          ";
+          }
+           ?>
+           </ul>
     	</div>
   </div>
 </nav>
