@@ -26,5 +26,9 @@
 					else if ($_GET['page'] == 'tambah_game') {
 						include('tambahgame.php');
 					}
+					else
+					{
+						include('User.php');
+					}
 		}
 ?>
