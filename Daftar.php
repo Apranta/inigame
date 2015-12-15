@@ -13,8 +13,10 @@
 			</tr>
 			<tr>
 				<td colspan="3" align="center">
-				<input type="checkbox" name="gender" value="1">Laki Laki
-				<input type="checkbox" name="gender" value="2"> Perempuan
+				<select name="gender">
+					<option value="1" class="form-control">Laki Laki
+					<option value="2" class="form-control">Perempuan
+				</select>
 				</td>
 			</tr>
 				<tr>
